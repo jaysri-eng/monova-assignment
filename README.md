@@ -3,6 +3,8 @@
 A React Native app that replicates the UI concept from the reference video, consists of a fashion inventory with bottom tab navigation, saved collections, and animated interactions.
 
 ---
+## Google Drive link for screenshots and recording: 
+https://drive.google.com/drive/folders/121169lLOQed1qFqRxnFJdUZEEIcGzc5e?usp=sharing
 
 ## How to run
 
