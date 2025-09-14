@@ -114,19 +114,27 @@ export default function CollectionsScreen() {
                 onPress={() => setActiveFilter(col.title)}
               >
                 <Text style={styles.presetEmoji}>
-                  {col.title === "Men formals"
-                    ? "💼"
-                    :col.title === "Women formals"
-                    ? "💼"
-                    : col.title === "Casual"
-                    ? "🎉"
-                    : col.title === "Designer"
-                    ? "🎨"
-                    : col.title === "Summer"
-                    ? "🌞"
-                    : col.title === "Accessories"
-                    ? "👜"
-                    : "✨"}
+                  {col.title === "Men formals" || col.title === "Women formals"
+                  ? "💼"
+                  : col.title === "Casual"
+                  ? "🎉"
+                  : col.title === "Designer"
+                  ? "🎨"
+                  : col.title === "Summer" || col.title === "Beach Day"
+                  ? "🌞"
+                  : col.title === "Accessories"
+                  ? "👜"
+                  : col.title === "Streetwear"
+                  ? "👕"
+                  : col.title === "Winter Cozy"
+                  ? "🧣"
+                  : col.title === "Evening Party"
+                  ? "🥂"
+                  : col.title === "Smart Casual"
+                  ? "🕴️"
+                  : col.title === "Date Night"
+                  ? "❤️"
+                  : "✨"}
                 </Text>
                 <Text>{col.title}</Text>
               </TouchableOpacity>
