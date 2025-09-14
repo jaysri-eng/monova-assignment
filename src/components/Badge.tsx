@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 import { useTheme } from "../styles/theme";
+import React from "react";
 
 export default function Badge({ label }: { label: string }) {
   const t = useTheme();

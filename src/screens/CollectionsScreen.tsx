@@ -20,8 +20,8 @@ const SCREEN_PADDING = 16;
 
 export default function CollectionsScreen() {
 
-  const getItem = (data: CollectionItem[], index: number) => data[index];
-  const getItemCount = (data: CollectionItem[]) => data.length;
+  const getItem = (data: Collections[], index: number): Collections => data[index];
+  const getItemCount = (data: Collections[]): number => data.length;
   const [activeFilter, setActiveFilter] = React.useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<Collections[]>([]);

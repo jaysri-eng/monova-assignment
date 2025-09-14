@@ -5,6 +5,7 @@ import HomeScreen from "../screens/HomeScreen";
 import DummyScreen from "../screens/DummyScreen";
 import SavedScreen from "../screens/SavedScreen";
 import { Ionicons } from '@expo/vector-icons';
+import React from "react";
 
 const BottomTab = createBottomTabNavigator();
 

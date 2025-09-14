@@ -1,3 +1,4 @@
+import React from "react";
 import { TouchableOpacity, StyleSheet, Image } from "react-native";
 
 export default function FloatingButton({ onPress }: { onPress?: () => void }) {

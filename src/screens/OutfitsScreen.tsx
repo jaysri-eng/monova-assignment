@@ -26,8 +26,9 @@ export default function OutfitsScreen() {
     return () => clearTimeout(timer);
   }, []);
 
-  const getItem = (data: OutfitItem[], index: number) => data[index];
-  const getItemCount = (data: OutfitItem[]) => data.length;
+  const getItem = (data: Outfits[], index: number): Outfits => data[index];
+  const getItemCount = (data: Outfits[]): number => data.length;
+
 
   const renderOutfit = ({ item }: { item: Outfits }) => {
     const [main, ...rest] = item.items;
